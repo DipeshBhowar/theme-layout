@@ -1,0 +1,61 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ccc;
+    color: aliceblue;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    border: 1px solid #ccc;
+}
+
+nav li {
+    border-radius: 10px;
+}
+
+.nav-link {
+    text-decoration: solid;
+    color: #000;
+}
+
+.nav-link:hover {
+    font-weight: 600;
+    color: blueviolet;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    position: fixed;
+}
+
+form {
+    width: 100%;
+    background: url('https://img.freepik.com/free-vector/white-gold-geometric-pattern-background-vector_53876-140726.jpg?t=st=1645020103~exp=1645020703~hmac=280fd09f41c7a3572d6134bc4c824674419770f49636e853d82612428d04aef4&w=996');
+    color: cadetblue;
+    padding: 16px;
+}
+
+button {
+    background-color: aquamarine;
+    width: 100%;
+    border: 0;
+    padding: 16px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px #000;
+}
+
+button:hover {
+    box-shadow: 2px 2px 10px #ccc;
+}
